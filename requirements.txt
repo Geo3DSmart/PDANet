@@ -1,0 +1,16 @@
+numpy==1.20.0
+llvmlite
+numba
+tensorboardX
+easydict
+pyyaml
+scikit-image
+tqdm
+torchvision
+SharedArray
+pyqt5
+nuscenes-devkit==1.0.5
+tensorflow==2.2.0
+tensorflow-gpu==2.2.0
+tensorboardx  
+waymo-open-dataset-tf-2-2-0
