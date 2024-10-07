@@ -32,7 +32,6 @@ python setup.py develop
 ```
 
 
-
 ### Quick Inference
 
 ```shell
@@ -40,19 +39,18 @@ cd tools
 # To achieve fully GPU memory footprint (NVIDIA RTX2080Ti, 11GB).
 python test.py --cfg_file cfgs/once_models/PDA-SSD.yaml --batch_size 2 \
     --ckpt ***.pth 
-
+```
 
 ### Training
 The configuration files are in ```tools/cfgs/kitti_models/PDA-SSD.yaml``` and ```tools/cfgs/once_models/PDA-SSD.yaml```.
-
+```
 python train.py --cfg_file cfgs/once_models/PDA-SSD.yaml  --batch_size 2 
-
+```
 
 ## Citation 
 If you find this project useful in your research, please consider citing:
 
 ```
-
 @ARTICLE{10649613,
   author={Tang, Miao and Yu, Dianyu and Hu, Qingyong and Dai, Wenxia and Xiao, Wen},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
